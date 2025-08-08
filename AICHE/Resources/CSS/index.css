@@ -1,0 +1,109 @@
+.navbar{
+    position:fixed;
+    top:0;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color:aliceblue;
+    height: 80px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    z-index: 1000;
+    padding: 0 12px
+}
+
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+    font-style: Georgia;
+    padding: 50px 20px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.logo{
+    font-size: 20px;
+    font-style: Georgia;
+    font-weight: bold;
+    color: black;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+
+#banner {
+    text-align: center;
+    font: 55px Georgia;
+    font-weight: bold;
+    color:black;
+    padding: 10px;
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    width: 100%;
+    transform: translate(-50%, -50%);
+}
+
+div {
+    position: relative;
+}
+
+#rochester {
+    height: 500px;
+    width: 100%;
+    display: block;
+    opacity: 0.45;
+    text-align: center;
+}
+
+#paragraph {
+    text-align: center;
+    font-style: Times New Roman;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    line-height: 1.5;
+}
+
+#qrcode {
+    text-align: center;
+    font-style: 'Times New Roman';
+    font-size: 25px;
+    font-weight: bold;
+    color: Black;
+}
+
+#button {
+    text-align: center;
+    font-style: 'Times New Roman';
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    background-color: #7393B3; 
+}
+
+#mission {
+    text-align: center;
+    font-style: 'Times New Roman';
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+#codepicture {
+    display: block;
+    margin: 0 auto;
+    width: 240px;
+    height: 240px;
+    text-align: center;
+    padding: 20px;
+}
+
+.block {
+    text-align: center;
+    padding: 50px 10px;
+    background-color: #7393B3;
+}
